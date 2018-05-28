@@ -1,0 +1,10 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<parameters>
+  <parameter name="IIS Web Application Name" description="" value="rks1621.app.fit.ba" tags="IisApp">
+    <parameterEntry kind="ProviderPath" scope="IisApp" match="^C:\\Users\\edib\.basara\\Desktop\\IS_Klinika\\IS_Klinika\\IS_Klinika\.Api\\obj\\Release\\Package\\PackageTmp$" />
+    <parameterEntry kind="ProviderPath" scope="setAcl" match="^C:\\Users\\edib\.basara\\Desktop\\IS_Klinika\\IS_Klinika\\IS_Klinika\.Api\\obj\\Release\\Package\\PackageTmp$" />
+  </parameter>
+  <parameter name="Connection-Web.config Connection String" description="" value="Data Source=app.fit.ba,1433; Initial Catalog=IS_Klinika; Integrated Security=false; User ID=IS_Klinika; Password=Qu0f9e#6; MultipleActiveResultSets=true;" tags="">
+    <parameterEntry kind="XmlFile" scope="C:\\Users\\edib\.basara\\Desktop\\IS_Klinika\\IS_Klinika\\IS_Klinika\.Api\\obj\\Release\\Package\\PackageTmp\\Web\.config$" match="/configuration/connectionStrings/add[@name='Connection']/@connectionString" />
+  </parameter>
+</parameters>
